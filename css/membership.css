@@ -1,0 +1,164 @@
+/* !--------------------------------------navbar CSS STARTS-------------------------------------- */
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  top: 0;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.logo {
+  background-image: url("https://miro.medium.com/v2/resize:fit:8978/1*s986xIGqhfsN8U--09_AdA.png");
+  width: 15%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.navbar_links {
+  margin-top: 13px;
+  margin-right: 20px;
+}
+
+.signin,
+.signup {
+  border-radius: 50px;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  width: 110px;
+  height: 40px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signin:hover,
+.signup:hover {
+  cursor: pointer;
+  color: red;
+}
+/* !--------------------------------------navbar CSS ENDS-------------------------------------- */
+
+/* !--------------------------------------Contianer CSS STARTS-------------------------------------- */
+
+/* !--------------------------------------corousel STARTS!-------------------------------------- */
+.container {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin: auto;
+  height: 2000px;
+}
+
+.button1 {
+  width: auto;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+  display: inline-block;
+  border-width: 3px;
+  font-weight: 400px;
+  /* line-height: 24px; */
+  margin-left: 25px;
+  border-width: 0px;
+  margin-bottom: 50px;
+}
+.button1:hover {
+  cursor: pointer;
+  color: red;
+}
+.h1 {
+  font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 85px;
+  margin-top: 150px;
+
+  font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+  margin-bottom: 150px;
+  margin-left: 20px;
+}
+
+.text {
+  font-size: 24px;
+  margin: 35px 0px;
+  width: 80%;
+  margin-left: 20px;
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(255, 0, 0, 0.463);
+  margin-bottom: 40px;
+}
+
+.content {
+  width: 60%;
+  /* border: 1px solid black; */
+}
+.photo {
+  width: 39%;
+  /* border: 1px solid red; */
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/541/815/desktop-wallpaper-90-dark-iphone-dark-for-iphone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* !--------------------------------------corousel ENDS!-------------------------------------- */
+
+/* !--------------------------------------ABout STARTS!-------------------------------------- */
+
+.about_membership {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  height: 1500px;
+  margin-top: 80px;
+}
+
+.heading {
+  /* border: 1px solid black; */
+  width: 40%;
+  font-size: 70px;
+  margin-left: 30px;
+  font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+  position: sticky;
+  top: 130px;
+  height: 600px;
+}
+
+.about {
+  /* border: 1px solid red; */
+  width: 55%;
+  height: auto;
+}
+
+.reward {
+  font-size: 50px;
+  margin-bottom: 10px;
+  width: 85%;
+}
+
+.about_reward {
+  width: 90%;
+  font-size: 23px;
+}
+
+.about_1 {
+  margin-bottom: 90px;
+}
+
+/* !--------------------------------------ABout ENDS!-------------------------------------- */
+
+/* !--------------------------------------Container CSS ENDS-------------------------------------- */

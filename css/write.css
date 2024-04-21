@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.img{
+  height: 10%;
+  width: 50px;
+}
+.container-fluid{
+  height: 70px;
+}
+
+.container-fluid img{
+  height: 10%;
+  width: 15%;
+}
+.button2{
+  width: 90px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+.button1{
+  width: 90px;
+  padding: 5px;
+  background-color: white;
+  color: black;
+}
+.content{
+  background-color: #34AA45;
+}
+
+.heading{
+  font-size: 120px;
+  line-height: 120px;
+  color: rgba(255, 255, 255, 1);
+  box-sizing: inherit;
+  letter-spacing: -0.055em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.contents-2{
+  line-height: 24px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  box-sizing: inherit;
+  width: 16rem
+}
+.button3{
+  width: 120px;
+  padding: 7px;
+  background-color: black;
+  color: white;
+}
+.whole_image {
+    background-image: url('https://miro.medium.com/v2/resize:fit:2582/7*7bqDia8vWuKyDd9bLPUzfQ.png');
+    background-size: cover;
+    background-position-x: right 0px;
+    background-position-y: left 0px;
+}

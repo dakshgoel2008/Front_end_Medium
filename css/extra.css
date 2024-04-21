@@ -1,0 +1,140 @@
+.extra {
+  /* border: 2px solid green; */
+  /* height: 2000px; */
+  width: 100%;
+  height: 4500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left {
+  /* border: 1px solid blue; */
+  width: 60%;
+  height: auto;
+  /* border: 1px solid black; */
+}
+.right {
+  /* border: 1px solid red; */
+  width: 35%;
+  position: sticky;
+  top: 130px;
+  height: 1200px;
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+
+.h11 {
+  font-weight: bold;
+  font-size: 17px;
+  margin: auto;
+  margin-left: 20px;
+}
+.extrabuttons {
+  padding: 10px;
+}
+.button_1 {
+  width: 115px;
+  height: 40px;
+  background-color: #edededc3;
+  color: black;
+  font-size: 14px;
+  /* padding: 1px 1px; */
+  border-radius: 50px;
+  margin-top: 15px;
+  border-width: 0px;
+  margin-inline-start: 4px;
+}
+.si,
+.ml {
+  width: 140px;
+}
+
+.wri,
+.p3 {
+  width: 80px;
+}
+
+.button_1:hover {
+  cursor: pointer;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.text_item {
+  /* border: 1px solid black; */
+  width: 65%;
+}
+.photo_item {
+  /* border: 1px solid black; */
+  width: 35%;
+  background-image: url("https://miro.medium.com/v2/resize:fill:308:206/1*TYNsHKGvELRsgalw4UwIdg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.d11 {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.d11_text {
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.health {
+  width: 80px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.f11 {
+  color: rgba(128, 128, 128, 0.633);
+  margin-bottom: 50px;
+}
+
+.d11,
+.d11_text,
+.photo_item1,
+.photo_item2,
+.photo_item3,
+.photo_item4,
+.photo_item:hover {
+  cursor: pointer;
+}
+.photo_item1 {
+  /* border: 1px solid black; */
+  width: 35%;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/607/935/762/pokemon-pokemon-xd-gale-of-darkness-lugia-pokemon-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.photo_item2 {
+  width: 35%;
+  background-image: url("https://i.pinimg.com/736x/cc/d6/dd/ccd6dde0c33c1c7e020024c1bf4ef2ce.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.photo_item3 {
+  width: 35%;
+  background-image: url("https://wallpapers.com/images/hd/harry-potter-dark-hogwarts-2v4sebofb39b7wh9.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.photo_item4 {
+  width: 35%;
+  background-image: url("https://moewalls.com/wp-content/uploads/2023/02/hogwarts-legacy-dark-version-thumb.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
